@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saranya Dental Clinic | SDC Somanur - Smile with Confidence</title>
+  <meta name="description" content="Welcome to Saranya Dental Clinic (SDC) in Somanur. Experience premium dental care with Dr. Saranya. Book an appointment today for Root Canal, Implants, Braces, and more.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACKGROUND DECORATIONS -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- INTERACTIVE MOUSE GLOW -->
+  <div class="mouse-glow-wrapper" id="mouseGlow">
+    <div class="mouse-glow-blob"></div>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <!-- Dental Tooth SVG Icon -->
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12,2C11.5,2 9.5,3.5 8,4.5C6.5,5.5 5,7.5 5,10C5,13.5 6,15.5 7.5,17C9,18.5 10.5,19 11,21C11.1,21.5 11.5,22 12,22C12.5,22 12.9,21.5 13,21C13.5,19 15,18.5 16.5,17C18,15.5 19,13.5 19,10C19,7.5 17.5,5.5 16,4.5C14.5,3.5 12.5,2 12,2ZM12,4C12.2,4 13.7,5.1 14.9,6C16.1,6.9 17,8.2 17,10C17,12.7 16.2,14.3 15,15.5C13.8,16.7 12.8,17.2 12.2,18.9C12.1,19.2 12,19.5 12,19.7C12,19.5 11.9,19.2 11.8,18.9C11.2,17.2 10.2,16.7 9,15.5C7.8,14.3 7,12.7 7,10C7,8.2 7.9,6.9 9.1,6C10.3,5.1 11.8,4 12,4Z"/>
+          </svg>
+        </div>
+        <span>SDC</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About Clinic</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+
+      <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Theme">
+        <!-- Sun Icon -->
+        <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <!-- Moon Icon -->
+        <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Book Now</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span class="badge-text">Modern Dental Excellence</span>
+        </div>
+        <h1 class="hero-title" id="heroTitle">
+          Your Smile, Our Passion. <br>
+          <span>Saranya Dental Clinic</span>
+        </h1>
+        <p class="hero-desc">
+          Experience premium, painless dental treatments at Somanur's leading dental care facility. We bring advanced dental technology and gentle care together for your family.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            Schedule Appointment
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#services" class="btn btn-secondary">Our Services</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-img-container">
+          <img src="assets/hero.png" alt="SDC Modern Dental Care" class="hero-img" onerror="this.src='https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&q=80&w=600'">
+        </div>
+        
+        <!-- Floating Stat Cards -->
+        <div class="hero-floating-card h-card-1 glass-card">
+          <div class="floating-card-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <div class="floating-card-info">
+            <h4>100% Safe</h4>
+            <p>ISO Certified Sterile</p>
+          </div>
+        </div>
+
+        <div class="hero-floating-card h-card-2 glass-card">
+          <div class="floating-card-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="floating-card-info">
+            <h4>5000+</h4>
+            <p>Happy Patients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mouse Scroll Down indicator -->
+    <a href="#services" class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-num" data-val="10">0</div>
+        <div class="stat-label">Years of Smile Design</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-val="5000">0</div>
+        <div class="stat-label">Happy Patients</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-val="15">0</div>
+        <div class="stat-label">Treatment Specialties</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-val="99">0</div>
+        <div class="stat-label">Satisfaction Rate %</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section" id="services">
+    <div class="container">
+      <span class="section-tag">What We Do</span>
+      <h2 class="section-title">Specialized <span>Dental Solutions</span></h2>
+      <p class="section-desc">
+        We provide complete dental care from prevention to cosmetic makeovers under one roof at Somanur. Our dental treatments are customized to match your requirements.
+      </p>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Shield/Preventive SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM12 4.5l5.5 2.1v4.4c0 3.7-4.2 6.9-5.5 7.8-1.3-1-5.5-4.1-5.5-7.8V6.6L12 4.5zm-1 8.5l4-4-1.4-1.4-2.6 2.6-1.6-1.6L8 10l3 3z"/>
+            </svg>
+          </div>
+          <h3>Preventive Dentistry</h3>
+          <p>Regular checkups, professional dental cleaning, sealants, and fluoride treatments to preserve dental health.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Implant/Tooth SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M12,2A3,3 0 0,0 9,5C9,6.4 10,7.6 11.2,7.9L9,15H11V22H13V15H15L12.8,7.9C14,7.6 15,6.4 15,5A3,3 0 0,0 12,2M12,4A1,1 0 0,1 13,5A1,1 0 0,1 12,6A1,1 0 0,1 11,5A1,1 0 0,1 12,4M8.5,8A1.5,1.5 0 0,0 7,9.5C7,10.6 7.8,11.5 8.8,11.7L7.5,16H9.5V22H10.5V16H11.8L10.3,11.2C10.7,10.8 11,10.2 11,9.5A1.5,1.5 0 0,0 9.5,8A1.5,1.5 0 0,0 8.5,8M15.5,8A1.5,1.5 0 0,0 14,9.5C14,10.2 14.3,10.8 14.7,11.2L13.2,16H14.5V22H15.5V16H17.5L16.2,11.7C17.2,11.5 18,10.6 18,9.5A1.5,1.5 0 0,0 16.5,8H15.5Z"/>
+            </svg>
+          </div>
+          <h3>Dental Implants</h3>
+          <p>Modern dental implants designed to restore single, multiple, or full arches of missing teeth permanently.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Root Canal SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M19.3,12.5C18,11 16.6,8.4 16.6,5.3C16.6,4.6 16,4 15.3,4H8.7C8,4 7.4,4.6 7.4,5.3C7.4,8.4 6,11 4.7,12.5C4.2,13 4,13.8 4,14.5C4,18.1 6.9,21 10.5,21C11.5,21 12.5,20.8 13.5,20.3L12.5,18.5H11.5C9.6,18.5 8,16.9 8,15C8,13.1 9.6,11.5 11.5,11.5C13.4,11.5 15,13.1 15,15C15,15.6 14.8,16.2 14.5,16.7L16,19.3C18.4,18.3 20,15.9 20,13.1C20,12.9 20,12.7 19.9,12.5C19.8,12.5 19.5,12.6 19.3,12.5Z"/>
+            </svg>
+          </div>
+          <h3>Root Canal Therapy</h3>
+          <p>Save highly damaged or infected teeth with state-of-the-art, virtually painless root canal procedures.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Orthodontics SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M5,3A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5M5,5H19V7H17V9H15V7H9V9H7V7H5V5M5,11H7V13H9V11H15V13H17V11H19V13H17V15H15V13H9V15H7V13H5V11M5,17H7V19H5V17M9,17H15V19H9V17M17,17H19V19H17V17Z"/>
+            </svg>
+          </div>
+          <h3>Orthodontics / Braces</h3>
+          <p>Metal braces, ceramic braces, and modern transparent clear aligners to align teeth for teens and adults.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Cosmetic/Smile SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M7,9.5A1.5,1.5 0 0,0 8.5,11A1.5,1.5 0 0,0 10,9.5A1.5,1.5 0 0,0 8.5,8A1.5,1.5 0 0,0 7,9.5M14,9.5A1.5,1.5 0 0,0 15.5,11A1.5,1.5 0 0,0 17,9.5A1.5,1.5 0 0,0 15.5,8A1.5,1.5 0 0,0 14,9.5M12,18C14.7,18 17,15.8 17.5,13H6.5C7,15.8 9.3,18 12,18Z"/>
+            </svg>
+          </div>
+          <h3>Cosmetic Dentistry</h3>
+          <p>Teeth whitening, composite veneers, porcelain veneers, and complete smile design to boost your confidence.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Pediatric SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M12,2C11.5,2 10.5,2.75 9.7,3.5C8.9,4.25 8.2,5.25 8.2,6.5C8.2,7.5 8.5,8.25 9,9C9.5,9.75 10.2,10.25 10.7,11.5C11.2,12.75 10.5,14.5 10,16.5C9.5,18.5 8,21 11,21C11.5,21 11.8,20.5 12,20C12.2,20.5 12.5,21 13,21C16,21 14.5,18.5 14,16.5C13.5,14.5 12.8,12.75 13.3,11.5C13.8,10.25 14.5,9.75 15,9C15.5,8.25 15.8,7.5 15.8,6.5C15.8,5.25 15.1,4.25 14.3,3.5C13.5,2.75 12.5,2 12,2Z"/>
+            </svg>
+          </div>
+          <h3>Pediatric Care</h3>
+          <p>Kid-friendly dental clinic environment focusing on preventive treatments, habits counseling, and milk teeth care.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 7 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Crown/Bridge SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M2,21V17C2,15.89 2.9,15 4,15H8L10,13H14L16,15H20C21.11,15 22,15.89 22,17V21H2M4,17V19H20V17H16.5L14.5,15H9.5L7.5,17H4M12,2L15,5H9L12,2M9,6H15C15,6 16,7 16,8C16,9 15,10 15,10H9C9,10 8,9 8,8C8,7 9,6 9,6M9,11H15L14,13H10L9,11Z"/>
+            </svg>
+          </div>
+          <h3>Crowns & Bridges</h3>
+          <p>Custom-crafted dental crowns and bridges to restore damaged teeth and replace missing ones with natural-looking results.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 8 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Teeth Whitening SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M12,2C11.5,2 9.5,3.5 8,4.5C6.5,5.5 5,7.5 5,10C5,13.5 6,15.5 7.5,17C9,18.5 10.5,19 11,21C11.1,21.5 11.5,22 12,22C12.5,22 12.9,21.5 13,21C13.5,19 15,18.5 16.5,17C18,15.5 19,13.5 19,10C19,7.5 17.5,5.5 16,4.5C14.5,3.5 12.5,2 12,2Z"/>
+              <circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="12" y1="7" x2="12" y2="5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="14.5" y1="8" x2="16" y2="6.5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="9.5" y1="8" x2="8" y2="6.5" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Teeth Whitening</h3>
+          <p>Professional in-clinic laser whitening and take-home kits to brighten your smile by several shades safely.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Service Card 9 -->
+        <div class="service-card glass-card">
+          <div class="service-icon-container">
+            <!-- Oral Surgery SVG -->
+            <svg class="service-icon-svg" viewBox="0 0 24 24">
+              <path d="M14.7,6.5C14.7,5.67 14.03,5 13.2,5H10.8C9.97,5 9.3,5.67 9.3,6.5C9.3,7.33 9.97,8 10.8,8H13.2C14.03,8 14.7,7.33 14.7,6.5M12,2C6.5,2 2,6.5 2,12C2,17.5 6.5,22 12,22C17.5,22 22,17.5 22,12C22,6.5 17.5,2 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M15,10H13V12H15V14H13V18H11V14H9V12H11V10H9V8H11H13H15V10Z"/>
+            </svg>
+          </div>
+          <h3>Oral Surgery</h3>
+          <p>Wisdom tooth extraction, surgical tooth removal, and minor oral surgical procedures with maximum comfort.</p>
+          <a href="#contact" class="service-link">
+            Book Service <span>&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT CLINIC SECTION -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-image-wrapper">
+        <div class="about-img-container">
+          <img src="assets/about.png" alt="Dr. Saranya Dentist SDC" class="about-img" onerror="this.src='https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=600'">
+        </div>
+        <div class="about-experience-badge">
+          <span class="exp-years">10+</span>
+          <span class="exp-text">Years of Quality Care</span>
+        </div>
+      </div>
+
+      <div class="about-info-content">
+        <span class="section-tag">About Saranya Dental Clinic</span>
+        <h2 class="section-title">Bringing Smile <span>Excellence to Somanur</span></h2>
+        <p class="section-desc">
+          Founded and led by <strong>Dr. Saranya</strong>, Saranya Dental Clinic (SDC) has established itself as the go-to family dental practice in Somanur. Our core values center around high-end sterile care, clinical precision, and absolute patient comfort.
+        </p>
+
+        <p style="color: var(--text-muted); margin-bottom: 2rem; margin-top: -2.5rem;">
+          We treat dentistry not just as a medical procedure, but as an art. From the moment you walk through our doors, our warm staff and tranquil ambiance are designed to make your anxiety disappear. We utilize digital dental diagnostics to ensure highly accurate treatment planning.
+        </p>
+
+        <div class="about-features">
+          <div class="about-feature-item">
+            <span class="feature-check">&#10003;</span>
+            <span>Sterilization Protocol</span>
+          </div>
+          <div class="about-feature-item">
+            <span class="feature-check">&#10003;</span>
+            <span>Dr. Saranya's Direct Expert Care</span>
+          </div>
+          <div class="about-feature-item">
+            <span class="feature-check">&#10003;</span>
+            <span>Modern Diagnostic tools</span>
+          </div>
+          <div class="about-feature-item">
+            <span class="feature-check">&#10003;</span>
+            <span>Affordable & Fair Pricing</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <span class="section-tag">Patient Stories</span>
+        <h2 class="section-title">What Our <span>Patients Say</span></h2>
+        <p class="section-desc">We measure our success by the healthy, happy smiles of our patients.</p>
+      </div>
+
+      <div class="testimonials-container">
+        <div class="slider-wrapper">
+          <div class="slider-track" id="sliderTrack">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <div class="testimonial-card glass-card">
+                <div class="quote-icon">&ldquo;</div>
+                <div class="stars">
+                  <!-- 5 Star SVGs -->
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                </div>
+                <p class="testimonial-text">
+                  "I was extremely scared of root canal treatments. But Dr. Saranya explained everything and completed the procedure with zero pain! Truly the best dental clinic in Somanur area."
+                </p>
+                <div class="patient-info">
+                  <div class="patient-avatar">R</div>
+                  <span class="patient-name">Ramesh Kumar</span>
+                  <span class="patient-treatment">Root Canal & Crown</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="testimonial-card glass-card">
+                <div class="quote-icon">&ldquo;</div>
+                <div class="stars">
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                </div>
+                <p class="testimonial-text">
+                  "The clinic is spotlessly clean. Dr. Saranya is very professional and patient. My kids feel very comfortable getting their dental checkups here. Highly recommended!"
+                </p>
+                <div class="patient-info">
+                  <div class="patient-avatar">P</div>
+                  <span class="patient-name">Priya Dharshini</span>
+                  <span class="patient-treatment">Pediatric Care</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="testimonial-card glass-card">
+                <div class="quote-icon">&ldquo;</div>
+                <div class="stars">
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/></svg>
+                </div>
+                <p class="testimonial-text">
+                  "Got dental aligners at SDC. The pricing is very transparent and the alignment progress has been amazing. The appointment booking system online is extremely easy to use."
+                </p>
+                <div class="patient-info">
+                  <div class="patient-avatar">A</div>
+                  <span class="patient-name">Anand Raj</span>
+                  <span class="patient-treatment">Clear Aligners</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn" aria-label="Previous Slide">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn" aria-label="Next Slide">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT BOOKING & CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      
+      <!-- Appointment Booking Form -->
+      <div class="booking-form-wrapper glass-card">
+        <span class="section-tag" style="margin-bottom: 0.75rem;">Easy Scheduling</span>
+        <h3>Book Appointment</h3>
+        <p>Fill out the form below, and we'll confirm your slot shortly.</p>
+
+        <!-- Message Box -->
+        <div class="form-message" id="formMsg"></div>
+
+        <form id="bookingForm" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" class="form-input" placeholder="e.g. Shyam" required>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" class="form-input" placeholder="e.g. 9715282015" required>
+            </div>
+            <div class="form-group">
+              <label for="treatment" class="form-label">Treatment Type</label>
+              <select id="treatment" class="form-input" required>
+                <option value="" disabled selected>Select Dental Treatment</option>
+                <option value="Preventive Care">Preventive Dentistry</option>
+                <option value="Dental Implants">Dental Implants</option>
+                <option value="Root Canal">Root Canal Therapy</option>
+                <option value="Orthodontics">Orthodontics / Braces</option>
+                <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
+                <option value="Pediatric Dentistry">Pediatric Care</option>
+                <option value="General Consultation">General Consultation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date" class="form-label">Preferred Date</label>
+              <input type="date" id="date" class="form-input" required>
+            </div>
+            <div class="form-group full-width">
+              <label for="notes" class="form-label">Special Notes / Symptoms (Optional)</label>
+              <textarea id="notes" class="form-input" placeholder="Briefly describe your dental issue..."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Confirm Appointment Booking
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Info Cards -->
+      <div class="contact-info">
+        
+        <!-- Opening Hours -->
+        <div class="info-card glass-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div class="info-card-details">
+            <h4>Opening Hours</h4>
+            <p>Monday - Saturday:<br>09:30 AM - 01:30 PM<br>04:30 PM - 08:30 PM<br><span style="color: var(--primary-dark); font-weight: 700;">Sunday: Closed</span></p>
+          </div>
+        </div>
+
+        <!-- Direct Contact Details -->
+        <div class="info-card glass-card">
+          <div class="info-card-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <div class="info-card-details">
+            <h4>Contact Info</h4>
+            <p>Phone: [Phone Number]<br>Email: [Email Address]</p>
+          </div>
+        </div>
+
+        <!-- Maps and Location -->
+        <div class="info-card glass-card map-card">
+          <div class="map-placeholder">
+            <!-- Map Pin SVG -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <h5>Somanur Clinic Location</h5>
+            <p>Main Road, Near Railway Station,<br>Somanur, Coimbatore - 641668</p>
+            <a href="https://maps.google.com" target="_blank" class="btn btn-secondary" style="padding: 0.5rem 1.25rem; font-size: 0.8rem;">Open Google Maps</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION SECTION -->
+  <section class="section" id="faq" style="background-color: var(--light-alt);">
+    <div class="container">
+      <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+        <span class="section-tag">Common Queries</span>
+        <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+        <p class="section-desc">Get answers to the most common questions about clinic treatments and appointments.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-question">What are the clinic timings of Dr. Saranya?</span>
+              <div class="faq-icon">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-answer">
+                Dr. Saranya is available from Monday to Saturday during 09:30 AM to 01:30 PM (Morning session) and 04:30 PM to 08:30 PM (Evening session). The clinic remains closed on Sundays.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-question">How do I schedule an appointment online?</span>
+              <div class="faq-icon">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-answer">
+                You can easily book a slot using the booking form right above on this page. Just fill in your details and select a treatment. Our staff will call/SMS you back within a few hours to confirm the slot.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-question">Is root canal treatment painful?</span>
+              <div class="faq-icon">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-answer">
+                Not at all. With local anesthesia and modern rotary endodontic systems used by Dr. Saranya at SDC, root canal treatments are virtually pain-free. It feels similar to getting a standard dental filling.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-question">Do you offer clear orthodontic aligners?</span>
+              <div class="faq-icon">
+                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-body">
+              <div class="faq-answer">
+                Yes, we offer clear teeth aligners, which are invisible, comfortable, and removable alternatives to conventional metallic braces. We will design a custom digital teeth alignment simulation for you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo" style="color: var(--white);">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12,2C11.5,2 9.5,3.5 8,4.5C6.5,5.5 5,7.5 5,10C5,13.5 6,15.5 7.5,17C9,18.5 10.5,19 11,21C11.1,21.5 11.5,22 12,22C12.5,22 12.9,21.5 13,21C13.5,19 15,18.5 16.5,17C18,15.5 19,13.5 19,10C19,7.5 17.5,5.5 16,4.5C14.5,3.5 12.5,2 12,2ZM12,4C12.2,4 13.7,5.1 14.9,6C16.1,6.9 17,8.2 17,10C17,12.7 16.2,14.3 15,15.5C13.8,16.7 12.8,17.2 12.2,18.9C12.1,19.2 12,19.5 12,19.7C12,19.5 11.9,19.2 11.8,18.9C11.2,17.2 10.2,16.7 9,15.5C7.8,14.3 7,12.7 7,10C7,8.2 7.9,6.9 9.1,6C10.3,5.1 11.8,4 12,4Z"/>
+            </svg>
+          </div>
+          <span>SDC</span>
+        </a>
+        <p>
+          Saranya Dental Clinic is dedicated to offering state-of-the-art dental services under the strict supervision of Dr. Saranya. Experience clinical perfection in a warm, welcoming environment in Somanur.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7C18.34 21.21 22 17.06 22 12.06c0-5.53-4.5-10.02-10-10.02z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-menu">
+          <li><a href="#home" class="footer-menu-link">Home</a></li>
+          <li><a href="#services" class="footer-menu-link">Our Services</a></li>
+          <li><a href="#about" class="footer-menu-link">About Clinic</a></li>
+          <li><a href="#testimonials" class="footer-menu-link">Testimonials</a></li>
+          <li><a href="#contact" class="footer-menu-link">Book Appointment</a></li>
+          <li><a href="#faq" class="footer-menu-link">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-col">
+        <h4>Find SDC Clinic</h4>
+        <div class="footer-contact-info">
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Main Road, Near Railway Station,<br>Somanur, Coimbatore - 641668</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>[Phone Number]</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>[Email Address]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Saranya Dental Clinic Somanur. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL FOR SUCCESS BOOKING -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-content glass-card">
+      <div class="success-icon-wrapper">
+        <svg class="success-check-svg" viewBox="0 0 24 24">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+      </div>
+      <h3>Booking Confirmed!</h3>
+      <p>Your appointment request has been received. Our clinical assistant will reach out to you via call/SMS to confirm your appointment time.</p>
+      
+      <div class="modal-details">
+        <div class="modal-details-row">
+          <span class="modal-details-label">Patient Name:</span>
+          <span class="modal-details-val" id="mName">-</span>
+        </div>
+        <div class="modal-details-row">
+          <span class="modal-details-label">Date Requested:</span>
+          <span class="modal-details-val" id="mDate">-</span>
+        </div>
+        <div class="modal-details-row">
+          <span class="modal-details-label">Department:</span>
+          <span class="modal-details-val" id="mTreatment">-</span>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" style="width: 100%;" id="closeModalBtn">Done</button>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <!-- GSAP Animation Library CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
