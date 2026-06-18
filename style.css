@@ -8,6 +8,7 @@
   --primary-rgb: 13, 148, 136;
   --secondary: #0ea5e9;        /* Sky Blue */
   --secondary-rgb: 14, 165, 233;
+<<<<<<< HEAD
   --dark: #0f172a;             /* Slate 900 */
   --dark-light: #1e293b;       /* Slate 800 */
   --light: #f8fafc;            /* Slate 50 */
@@ -15,17 +16,35 @@
   --white: #ffffff;
   --text-main: #0f172a;
   --text-muted: #64748b;
+=======
+  --dark: #ffffff;             /* Light Headers */
+  --dark-light: #cbd5e1;       /* Light Slate Subheaders */
+  --light: #060913;            /* Rich Dark Background */
+  --light-alt: #0c111d;        /* Dark Alternate Background */
+  --white: #111827;            /* Dark Card Background */
+  --text-main: #f1f5f9;        /* Main Light Text */
+  --text-muted: #94a3b8;       /* Muted Slate Text */
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
   --accent: #fbbf24;           /* Gold/Amber for ratings */
   
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   
+<<<<<<< HEAD
   --glass-bg: rgba(255, 255, 255, 0.75);
   --glass-border: rgba(255, 255, 255, 0.5);
   --glass-shadow: 0 8px 32px 0 rgba(13, 148, 136, 0.08);
   
   --card-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.06);
   --card-shadow-hover: 0 30px 60px -20px rgba(13, 148, 136, 0.15);
+=======
+  --glass-bg: rgba(13, 17, 30, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  
+  --card-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+  --card-shadow-hover: 0 30px 60px -20px rgba(13, 148, 136, 0.25);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
   
   --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -303,14 +322,23 @@ button, input, select, textarea {
 .btn-secondary {
   background-color: var(--white);
   color: var(--dark);
+<<<<<<< HEAD
   border: 1px solid rgba(15, 23, 42, 0.1);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+=======
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 }
 
 .btn-secondary:hover {
   background-color: var(--light-alt);
   transform: translateY(-3px);
+<<<<<<< HEAD
   border-color: rgba(15, 23, 42, 0.2);
+=======
+  border-color: rgba(255, 255, 255, 0.25);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 }
 
 .btn-icon {
@@ -346,11 +374,19 @@ button, input, select, textarea {
 
 .header.scrolled {
   padding: 1rem 0;
+<<<<<<< HEAD
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(13, 148, 136, 0.08);
   box-shadow: 0 10px 30px rgba(13, 148, 136, 0.05);
+=======
+  background: rgba(6, 9, 19, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(13, 148, 136, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 }
 
 .nav-container {
@@ -377,7 +413,11 @@ button, input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   color: var(--white);
+=======
+  color: #ffffff;
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
   box-shadow: 0 8px 16px rgba(13, 148, 136, 0.2);
   transition: var(--transition-bounce);
 }
@@ -1018,11 +1058,19 @@ button, input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   color: var(--white);
   font-weight: 800;
   font-size: 1.35rem;
   border: 4px solid var(--white);
   box-shadow: 0 8px 16px rgba(13, 148, 136, 0.1);
+=======
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.35rem;
+  border: 4px solid var(--white);
+  box-shadow: 0 8px 16px rgba(13, 148, 136, 0.15);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 }
 
 .patient-name {
@@ -1234,7 +1282,11 @@ textarea.form-input {
 .map-placeholder {
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background: radial-gradient(circle at center, #ccfbf1 0%, #f1f5f9 100%);
+=======
+  background: radial-gradient(circle at center, rgba(13, 148, 136, 0.08) 0%, var(--glass-bg) 100%);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1259,6 +1311,10 @@ textarea.form-input {
 .map-placeholder h5 {
   font-size: 1.1rem;
   font-weight: 700;
+<<<<<<< HEAD
+=======
+  color: var(--dark);
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 }
 
 .map-placeholder p {
@@ -1755,3 +1811,231 @@ textarea.form-input {
     padding: 2rem 1.5rem;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* ============================================
+   THEME TOGGLE BUTTON
+   ============================================ */
+.theme-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--dark);
+  cursor: pointer;
+  transition: var(--transition-bounce);
+  overflow: hidden;
+}
+.theme-btn:hover {
+  background: rgba(13,148,136,0.15);
+  border-color: var(--primary);
+  transform: rotate(15deg) scale(1.1);
+  box-shadow: 0 0 20px rgba(13,148,136,0.25);
+}
+.theme-btn .sun-icon { display: block; }
+.theme-btn .moon-icon { display: none; }
+body.light-theme .theme-btn .sun-icon { display: none; }
+body.light-theme .theme-btn .moon-icon { display: block; }
+
+/* ============================================
+   LIGHT THEME OVERRIDES
+   ============================================ */
+body.light-theme {
+  --dark: #0f172a;
+  --dark-light: #334155;
+  --light: #f0fafa;
+  --light-alt: #e2f4f4;
+  --white: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --glass-bg: rgba(255,255,255,0.72);
+  --glass-border: rgba(13,148,136,0.12);
+  --glass-shadow: 0 8px 32px 0 rgba(13,148,136,0.08);
+  --card-shadow: 0 20px 40px -15px rgba(0,0,0,0.08);
+  --card-shadow-hover: 0 30px 60px -20px rgba(13,148,136,0.2);
+}
+body.light-theme .blob { opacity: 0.07; mix-blend-mode: multiply; }
+body.light-theme .mouse-glow-blob {
+  background: radial-gradient(circle, rgba(13,148,136,0.1) 0%, rgba(14,165,233,0.05) 40%, rgba(255,255,255,0) 75%);
+}
+body.light-theme .header.scrolled {
+  background: rgba(240,250,250,0.9);
+  border-bottom: 1px solid rgba(13,148,136,0.1);
+  box-shadow: 0 10px 30px rgba(13,148,136,0.07);
+}
+body.light-theme .btn-secondary {
+  background-color: var(--white);
+  border: 1px solid rgba(13,148,136,0.2);
+  color: var(--dark);
+}
+body.light-theme .btn-secondary:hover {
+  background-color: var(--light-alt);
+  border-color: rgba(13,148,136,0.35);
+}
+body.light-theme .stats-bar {
+  background: linear-gradient(135deg, #0f766e, #0d9488);
+  box-shadow: 0 30px 60px rgba(13,148,136,0.2);
+}
+body.light-theme .theme-btn {
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+body.light-theme .theme-btn:hover {
+  background: rgba(13,148,136,0.1);
+}
+body.light-theme ::-webkit-scrollbar-track { background: var(--light); }
+body.light-theme ::-webkit-scrollbar-thumb { border: 2px solid var(--light); }
+
+/* --- Light theme: Glass cards & service cards --- */
+body.light-theme .glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(13, 148, 136, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+}
+body.light-theme .service-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+body.light-theme .service-card:hover {
+  box-shadow: 0 20px 50px -10px rgba(13, 148, 136, 0.2);
+  border-color: rgba(13, 148, 136, 0.25);
+}
+body.light-theme .service-card h3 {
+  color: #0f172a;
+}
+body.light-theme .service-card p {
+  color: #64748b;
+}
+body.light-theme .service-icon-container {
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.1), rgba(14, 165, 233, 0.08));
+}
+body.light-theme .service-card:hover .service-icon-container {
+  color: #ffffff;
+}
+
+/* --- Light theme: Info cards & map --- */
+body.light-theme .info-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+body.light-theme .info-card:hover .info-card-icon {
+  color: #ffffff;
+}
+body.light-theme .map-placeholder {
+  background: radial-gradient(circle at center, rgba(13, 148, 136, 0.06) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+body.light-theme .map-placeholder h5 {
+  color: #0f172a;
+}
+body.light-theme .map-placeholder p {
+  color: #64748b;
+}
+
+/* --- Light theme: Booking form --- */
+body.light-theme .booking-form-wrapper {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 148, 136, 0.1);
+}
+body.light-theme .form-input {
+  background-color: #f0fafa;
+  color: #0f172a;
+  border: 1.5px solid rgba(13, 148, 136, 0.1);
+}
+body.light-theme .form-input:focus {
+  background-color: #ffffff;
+  border-color: var(--primary);
+}
+
+/* --- Light theme: Testimonials --- */
+body.light-theme .testimonial-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(13, 148, 136, 0.1);
+}
+body.light-theme .patient-avatar {
+  border-color: #ffffff;
+}
+
+/* --- Light theme: FAQ --- */
+body.light-theme .faq-item {
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+}
+body.light-theme .faq-header {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+body.light-theme .faq-item.active .faq-header {
+  background-color: rgba(13, 148, 136, 0.03);
+}
+body.light-theme .faq-body {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+body.light-theme .faq-icon {
+  background-color: #e2f4f4;
+}
+
+/* --- Light theme: Slider controls --- */
+body.light-theme .slider-btn {
+  background-color: #ffffff;
+  border: 1px solid rgba(13, 148, 136, 0.15);
+  color: #0f172a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+body.light-theme .slider-btn:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+/* --- Light theme: Hero image container --- */
+body.light-theme .hero-img-container {
+  border: 1px solid rgba(13, 148, 136, 0.12);
+  background: #ffffff;
+}
+body.light-theme .hero-badge {
+  background-color: #ffffff;
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Light theme: Modal --- */
+body.light-theme .modal-overlay {
+  background-color: rgba(15, 23, 42, 0.4);
+}
+body.light-theme .modal-content {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(13, 148, 136, 0.1);
+}
+body.light-theme .modal-details {
+  background-color: #f0fafa;
+  border: 1px solid rgba(13, 148, 136, 0.08);
+}
+
+/* --- Light theme: About section --- */
+body.light-theme .about-img-container {
+  border: 1px solid rgba(13, 148, 136, 0.1);
+  background: #ffffff;
+}
+body.light-theme .about-experience-badge {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* --- Light theme: Footer --- */
+body.light-theme .footer {
+  background: linear-gradient(135deg, #0c1425, #0f1b30);
+}
+body.light-theme .social-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+body.light-theme .social-btn:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21

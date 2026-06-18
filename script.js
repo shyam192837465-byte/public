@@ -302,8 +302,13 @@ document.addEventListener('DOMContentLoaded', () => {
       ease: 'power1.inOut'
     }, '-=0.2');
 
+<<<<<<< HEAD
     // Services Cards Scroll Trigger
     gsap.from('.service-card', {
+=======
+    // Services Cards Scroll Trigger disabled for debugging
+    /* gsap.from('.service-card', {
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
       scrollTrigger: {
         trigger: '#services',
         start: 'top 75%',
@@ -314,7 +319,11 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: 0.8,
       stagger: 0.15,
       ease: 'power3.out'
+<<<<<<< HEAD
     });
+=======
+    }); */
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
 
     // About Us Left-Right slide trigger
     gsap.from('.about-img-container', {
@@ -417,6 +426,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
     }
+<<<<<<< HEAD
+=======
+// Theme toggle logic
+const themeBtn = document.getElementById('themeToggleBtn');
+if (themeBtn) {
+  // Determine initial theme
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isLight = savedTheme ? savedTheme === 'light' : !prefersDark;
+  if (isLight) {
+    document.body.classList.add('light-theme');
+  }
+  // Click handler to toggle theme
+  themeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+    const nowLight = document.body.classList.contains('light-theme');
+    localStorage.setItem('theme', nowLight ? 'light' : 'dark');
+  });
+}
+
+>>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
   } else {
     // Fallback counter if GSAP is not available
     const animateFallbacks = () => {
