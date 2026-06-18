@@ -9,6 +9,9 @@
   --secondary: #0ea5e9;        /* Sky Blue */
   --secondary-rgb: 14, 165, 233;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   --dark: #0f172a;             /* Slate 900 */
   --dark-light: #1e293b;       /* Slate 800 */
   --light: #f8fafc;            /* Slate 50 */
@@ -16,6 +19,7 @@
   --white: #ffffff;
   --text-main: #0f172a;
   --text-muted: #64748b;
+<<<<<<< HEAD
 =======
   --dark: #ffffff;             /* Light Headers */
   --dark-light: #cbd5e1;       /* Light Slate Subheaders */
@@ -25,18 +29,24 @@
   --text-main: #f1f5f9;        /* Main Light Text */
   --text-muted: #94a3b8;       /* Muted Slate Text */
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   --accent: #fbbf24;           /* Gold/Amber for ratings */
   
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   --glass-bg: rgba(255, 255, 255, 0.75);
   --glass-border: rgba(255, 255, 255, 0.5);
   --glass-shadow: 0 8px 32px 0 rgba(13, 148, 136, 0.08);
   
   --card-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.06);
   --card-shadow-hover: 0 30px 60px -20px rgba(13, 148, 136, 0.15);
+<<<<<<< HEAD
 =======
   --glass-bg: rgba(13, 17, 30, 0.7);
   --glass-border: rgba(255, 255, 255, 0.08);
@@ -45,6 +55,8 @@
   --card-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
   --card-shadow-hover: 0 30px 60px -20px rgba(13, 148, 136, 0.25);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   
   --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -323,22 +335,31 @@ button, input, select, textarea {
   background-color: var(--white);
   color: var(--dark);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 1px solid rgba(15, 23, 42, 0.1);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
 =======
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+>>>>>>> 0164d91 (Just a previous page of different colour)
 }
 
 .btn-secondary:hover {
   background-color: var(--light-alt);
   transform: translateY(-3px);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-color: rgba(15, 23, 42, 0.2);
 =======
   border-color: rgba(255, 255, 255, 0.25);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+  border-color: rgba(15, 23, 42, 0.2);
+>>>>>>> 0164d91 (Just a previous page of different colour)
 }
 
 .btn-icon {
@@ -375,11 +396,15 @@ button, input, select, textarea {
 .header.scrolled {
   padding: 1rem 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(13, 148, 136, 0.08);
   box-shadow: 0 10px 30px rgba(13, 148, 136, 0.05);
+<<<<<<< HEAD
 =======
   background: rgba(6, 9, 19, 0.85);
   backdrop-filter: blur(20px);
@@ -387,6 +412,8 @@ button, input, select, textarea {
   border-bottom: 1px solid rgba(13, 148, 136, 0.12);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
 }
 
 .nav-container {
@@ -414,10 +441,14 @@ button, input, select, textarea {
   align-items: center;
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: var(--white);
 =======
   color: #ffffff;
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+  color: var(--white);
+>>>>>>> 0164d91 (Just a previous page of different colour)
   box-shadow: 0 8px 16px rgba(13, 148, 136, 0.2);
   transition: var(--transition-bounce);
 }
@@ -1059,11 +1090,15 @@ button, input, select, textarea {
   align-items: center;
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   color: var(--white);
   font-weight: 800;
   font-size: 1.35rem;
   border: 4px solid var(--white);
   box-shadow: 0 8px 16px rgba(13, 148, 136, 0.1);
+<<<<<<< HEAD
 =======
   color: #ffffff;
   font-weight: 800;
@@ -1071,6 +1106,8 @@ button, input, select, textarea {
   border: 4px solid var(--white);
   box-shadow: 0 8px 16px rgba(13, 148, 136, 0.15);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
 }
 
 .patient-name {
@@ -1283,10 +1320,14 @@ textarea.form-input {
   width: 100%;
   height: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: radial-gradient(circle at center, #ccfbf1 0%, #f1f5f9 100%);
 =======
   background: radial-gradient(circle at center, rgba(13, 148, 136, 0.08) 0%, var(--glass-bg) 100%);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+  background: radial-gradient(circle at center, #ccfbf1 0%, #f1f5f9 100%);
+>>>>>>> 0164d91 (Just a previous page of different colour)
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1312,9 +1353,12 @@ textarea.form-input {
   font-size: 1.1rem;
   font-weight: 700;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   color: var(--dark);
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
 }
 
 .map-placeholder p {
@@ -1812,6 +1856,7 @@ textarea.form-input {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 /* ============================================
@@ -2039,3 +2084,5 @@ body.light-theme .social-btn:hover {
   color: #ffffff;
 }
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
