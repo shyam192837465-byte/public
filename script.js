@@ -303,12 +303,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }, '-=0.2');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Services Cards Scroll Trigger
     gsap.from('.service-card', {
 =======
     // Services Cards Scroll Trigger disabled for debugging
     /* gsap.from('.service-card', {
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+    // Services Cards Scroll Trigger
+    gsap.from('.service-card', {
+>>>>>>> 0164d91 (Just a previous page of different colour)
       scrollTrigger: {
         trigger: '#services',
         start: 'top 75%',
@@ -320,10 +325,14 @@ document.addEventListener('DOMContentLoaded', () => {
       stagger: 0.15,
       ease: 'power3.out'
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 =======
     }); */
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+    });
+>>>>>>> 0164d91 (Just a previous page of different colour)
 
     // About Us Left-Right slide trigger
     gsap.from('.about-img-container', {
@@ -427,6 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Theme toggle logic
 const themeBtn = document.getElementById('themeToggleBtn');
@@ -447,6 +457,8 @@ if (themeBtn) {
 }
 
 >>>>>>> f3518166cbe8d6ae52484a05c2c917815127ed21
+=======
+>>>>>>> 0164d91 (Just a previous page of different colour)
   } else {
     // Fallback counter if GSAP is not available
     const animateFallbacks = () => {
